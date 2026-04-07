@@ -10,8 +10,6 @@ A sleek, interactive **product detail page** for a modern furniture item — bui
 |:-----------:|:---------------:|:-------------:|
 | ![Details Tab](./Images/details.png) | ![Description Tab](./Images/description.png) | ![Taupe Variant](./Images/color.png) |
 
-> **Note:** Place the three screenshot images inside an `assets/` folder in the project root and name them `preview-details.png`, `preview-description.png`, and `preview-taupe.png`.
-
 ---
 
 ## 🎯 Project Objective
@@ -85,19 +83,6 @@ Two radio inputs control which content panel is visible — the description para
 
 **Optimization:** The cushion was isolated as a separate absolutely-positioned `<div>` layered on top of the chair image using `position: absolute`. CSS `border-radius` and careful sizing gave it an organic seat shape. This made per-color CSS rules clean and trivial to extend.
 
----
-
-### Challenge 3 — Consistent Swatch Selection Feedback
-**Problem:** Showing which swatch is currently active required a visible ring or highlight — but native radio inputs are styled inconsistently across browsers.
-
-**Optimization:** All native radio inputs are hidden (`display: none`). The `<label>` elements act as the visible swatches. The active state is shown using a CSS `outline` or `box-shadow` ring applied when the associated input is `:checked`, giving full cross-browser control over appearance.
-
----
-
-### Challenge 4 — Typography Scale for Specs
-**Problem:** The spec numbers (80, 65, 90, 17.6) needed to feel large and dominant, while their units (cm, lbs) and labels (Length, Width…) needed to sit at a much smaller scale — a two-tier typographic hierarchy within one element.
-
-**Optimization:** Each spec uses a `<span>` inside the number element for the unit suffix, styled with a significantly smaller `font-size` and `vertical-align: baseline`. The label sits in a separate `<p>` below. This keeps the HTML semantic while giving full typographic control in CSS.
 
 ---
 
@@ -128,7 +113,3 @@ open index.html
 Or simply drag `index.html` into any modern browser.
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
