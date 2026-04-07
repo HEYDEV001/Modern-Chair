@@ -8,7 +8,7 @@ A sleek, interactive **product detail page** for a modern furniture item — bui
 
 | Details Tab | Description Tab | Color Variant |
 |:-----------:|:---------------:|:-------------:|
-| ![Details Tab](./images/details.png) | ![Description Tab](./images/description.png) | ![Taupe Variant](./images/color.png) |
+| ![Details Tab](./Images/details.png) | ![Description Tab](./Images/description.png) | ![Taupe Variant](./Images/color.png) |
 
 > **Note:** Place the three screenshot images inside an `assets/` folder in the project root and name them `preview-details.png`, `preview-description.png`, and `preview-taupe.png`.
 
