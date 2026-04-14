@@ -1,10 +1,10 @@
-# 🪑 Modern Chair
+#  Modern Chair
 
 A sleek, interactive **product detail page** for a modern furniture item — built with pure **HTML & CSS**. This project showcases a visually polished UI with dynamic color selection, tabbed content switching, and a responsive layout, all without any JavaScript frameworks.
 
 ---
 
-## 📸 Preview
+##  Preview
 
 | Details Tab | Description Tab | Color Variant |
 |:-----------:|:---------------:|:-------------:|
@@ -12,13 +12,13 @@ A sleek, interactive **product detail page** for a modern furniture item — bui
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The goal of this project was to recreate a **high-fidelity product page UI** — the kind you'd find on a premium e-commerce furniture website — using only HTML and CSS. The challenge was to implement interactive behaviors (tab switching, color selection with live feedback) that are typically handled by JavaScript, relying instead on CSS's `:checked` pseudo-class and sibling combinators.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Live Color Selection** — Six fabric swatches (Crimson, Charcoal, Slate Blue, Sky Blue, Taupe, Olive) update the chair's cushion appearance in real time using CSS `input[type="radio"]` tricks — no JavaScript required.
 - **Tabbed Content Panel** — Toggle between a *Description* prose view and a *Details* specs grid (dimensions + weight) using pure CSS tab logic.
@@ -30,7 +30,7 @@ The goal of this project was to recreate a **high-fidelity product page UI** —
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Modern-Chair/
@@ -45,7 +45,7 @@ The project lives inside a numbered folder (`09 - Modern Chair`) consistent with
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ### Color Switching (CSS-only)
 Hidden `<input type="radio">` elements are paired with visible `<label>` swatches. When a swatch is selected, CSS sibling combinators (`~`) target the chair cushion element and swap its `background-color` or `background-image`. The "Add to Cart" button color is also updated to match.
@@ -69,7 +69,7 @@ Two radio inputs control which content panel is visible — the description para
 
 ---
 
-## 🧩 Challenges & Optimizations
+##  Challenges & Optimizations
 
 ### Challenge 1 — Interactive State Without JavaScript
 **Problem:** Implementing color and tab switching without JS is not a common pattern and requires careful DOM structuring. The radio inputs must be siblings (or ancestors) of the elements they control — deeply nested markup breaks the sibling combinator.
@@ -86,7 +86,7 @@ Two radio inputs control which content panel is visible — the description para
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Usage |
 |------------|-------|
@@ -97,7 +97,7 @@ No build tools, no frameworks, no JavaScript — just a browser and a text edito
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ```bash
 # Clone the repository
