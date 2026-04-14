@@ -113,3 +113,9 @@ open index.html
 Or simply drag `index.html` into any modern browser.
 
 ---
+## Author
+
+**HEYDEV001**
+[github.com/HEYDEV001](https://github.com/HEYDEV001)
+
+---
